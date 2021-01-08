@@ -5,6 +5,13 @@ class Amber < Formula
   sha256 "f12e0b176273e011209e7d8613d1b9a049e50aeb536871c1f6c05a9d6a494935"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/danopia/homebrew-tools/releases/download/amber-0.5.8"
+    cellar :any_skip_relocation
+    sha256 "d2ef27cd229b78214c6118bb3c67475afe053b80615108462b80fc8f01814abd" => :catalina
+    sha256 "34da1faac58eea246a55fda73f1182bbb069f085799d37f3668356e4b23a8f50" => :x86_64_linux
+  end
+
   depends_on "rust" => :build
 
   def install
