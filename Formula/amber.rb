@@ -29,6 +29,6 @@ class Amber < Formula
     # Checking individual lines to be ordering agnostic
     assert_match %r{^\./file1:bar$}, output
     assert_match %r{^\./file2:bar$}, output
-    assert_no_match %r{^\./file3:}, output
+    refute_match %r{^\./file3:}, output
   end
 end
