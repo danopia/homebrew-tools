@@ -1,8 +1,8 @@
 class Amber < Formula
   desc "Code search / replace tool"
   homepage "https://github.com/dalance/amber"
-  url "https://github.com/dalance/amber/archive/v0.5.9.tar.gz"
-  sha256 "bf974e997fffa0d54463fc85e44f054563372ca4dade50099fb6ecec0ca8c483"
+  url "https://github.com/dalance/amber/archive/v0.6.0.tar.gz"
+  sha256 "41908502077197f55ec86b3a4dd4059a78deae9833e9ba33302b1146cc1ec3f5"
   license "MIT"
 
   bottle do
