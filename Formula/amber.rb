@@ -6,9 +6,8 @@ class Amber < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/danopia/homebrew-tools/releases/download/amber-0.5.9"
-    sha256 cellar: :any_skip_relocation, catalina:     "895e2f1e060704c0316acd2355b8dea41b6fe8b8ca2a4ac5880bf86f970e50ae"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "63a1abe680e9d58ccd4547e3e51d5566d7db520c777b0c56313fd57c77ffcf94"
+    root_url "https://github.com/danopia/homebrew-tools/releases/download/amber-0.6.0"
+    sha256 cellar: :any_skip_relocation, monterey: "cf173cde82ae67b2c7f9e1a18da48903943874af688d81657b380597e0e5260a"
   end
 
   depends_on "rust" => :build
